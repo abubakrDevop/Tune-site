@@ -7,7 +7,9 @@
     <link rel="shortcut icon" href="./image/sd.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <script src="script.js" defer></script>
+    <script src="signUp.js" defer></script>
+    <script src="signIn.js" defer></script>
+    <script src="./module/restApi.js" defer></script>
     <title>Register</title>
 </head>
 <body>
@@ -38,11 +40,11 @@
             </section>
             <section class="input_box">
                 <h1>Welcome login your account</h1>
-                <input type="text" placeholder="Your name...">
-                <input type="email" placeholder="Your email...">
-                <input type="password" placeholder="Your password...">
+                <input class="input_in name_in" type="text" placeholder="Your name...">
+                <input class="input_in email_in" type="email" placeholder="Your email...">
+                <input class="input_in password_in" type="password" placeholder="Your password...">
                 <section class="buttons">
-                    <button>Login</button>
+                    <button class="loginBtn">Login</button>
                     <span>Or</span>
                     <a class="linkBtn" href="#">Sign up</a>
                 </section>
