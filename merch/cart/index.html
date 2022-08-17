@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="./img/sd.png">
+    <script src="script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Storage | Music - Tune</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo"></div>
+            <div class="box_right_items">
+                <button class="home"><a href="../index.html"><ion-icon name="home-outline"></ion-icon> HOME</a></button>
+                <div class="input_box">
+                    <input type="search" class="search" placeholder="Search...">
+                    <span><ion-icon name="search-outline"></ion-icon></span>
+                </div>
+                <div class="post_category">
+                    <section class="choose_section">
+                        <button class="choose choose_active">Category</button>
+                        <ion-icon class="choose_icon" name="chevron-down-outline"></ion-icon>
+                        <ion-icon class="choose_remove" name="close-outline"></ion-icon>
+                    </section>
+                    <section class="category_section category_section_active">
+                        <button data-filter="Hoodie" class="category">Hoodies</button>
+                        <button data-filter="Skirt" class="category bottom">Skirts</button>
+                    </section>
+                </div>
+            </div>
+        </header>
+        
+        <div class="card_inner">
+            <!-- <div class="slider__card">
+                <div class="images">
+                    <img class="front" src="../image/aquafront.jpg" alt="">
+                    <img class="back" src="../image/aquaback.jpg" alt="">
+                </div>
+                <h2 class="title">WOO NINJA</h2>
+                <h2 class="price">$35.00</h2>
+                <button>ADD TO CART</button>
+            </div> -->
+        </div>
+
+        <div class="pay_box pay_boxShowHide">
+            <div class="pay_box__close"><ion-icon name="arrow-back-outline"></ion-icon> Back</div>
+            <div class="pay_box__content">
+                <section>
+                    <div class="pay_logo"></div>
+                    <div class="verify"></div>
+                </section>
+                <h3>PAYMENT DETAILS</h3>
+                <label class="card_number__label" for="card_number">Your card number</label>
+                <input class="card_number input" type="text" placeholder="0000 / 0000 / 0000 / 0000"><br>
+                <section>
+                    <div class="date_box">
+                        <label class="date__label" for="date">Expiration date</label>
+                        <input class="date input" type="text" placeholder="MM/YY">
+                    </div>
+                    <div class="cvv2_box">
+                        <label class="css2__label" for="cvv2">CVV2</label>
+                        <input class="cvv2 input" type="text" placeholder="***">
+                    </div>
+                </section>
+                <h3 class="method_text">PAYMENT METHOD</h3>
+                <section class="methods">
+                    <div class="method visa method_active"></div>
+                    <div class="method master"></div>
+                    <div class="method ipay"></div>
+                </section>
+                <section class="amount">
+                    <h1>Amount payable <br><span>$<p class="amount_payable">00.00</p></span></h1>
+                    <h1>Commission amount <br><span>$<p class="commission_amount">00.00</p></span></h1>
+                    <h1>Write-off amount <br><span>$<p class="writeoff_amount">00.00</p></span></h1>
+                </section>
+                <button class="payBtn">PAY</button>
+                <section class="secure_img">
+                    <p>Pay datais safe:</p>
+                    <div class="secure img1"></div>
+                    <div class="secure img2"></div>
+                    <div class="secure img3"></div>
+                </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
