@@ -5,15 +5,102 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="sass.scss">
     <link rel="stylesheet" href="media.css">
     <link rel="shortcut icon" href="./img/sd.png">
     <script src="script.js" defer></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Music player | Music - Tune</title>
 </head>
 <body>
     <div class="container">
+        <div class="head_block">
+            <header class="head_block-header">
+                <div class="head_block-icons">
+                    <span class="prev_slide"><ion-icon name="chevron-back-outline"></ion-icon></span>
+                    <span class="next_slide"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+                </div>
+                <div class="head_block-search">
+                    <input type="search" placeholder="Type to search...">
+                    <span><ion-icon name="search-outline"></ion-icon></span>
+                </div>
+                <div class="head_block-homeBtn">
+                    <a href="../index.html" style="color: black;">
+                        <span><ion-icon name="home-outline"></ion-icon> HOME</span>
+                    </a>
+                </div>
+            </header>
+            <div class="head_block-slider">
+                <h1>Explore new</h1>
+                <div class="head_block-sliderBox">
+                    <section class="head_block-sliderMove">
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                        <div class="head_block-sliderItems">
+                            <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                            <h2>Kardi b</h2>
+                            <p>Leviosa titan</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="music_block">
 
+        </div>
+        <div class="player_block">
+            <div class="player_block-control">
+                <span class="back-btn"><ion-icon name="play-back-outline"></ion-icon></span>
+                <span class="play-btn"><ion-icon name="play-outline"></ion-icon></span>
+                <span class="pause-btn play-btns_controll"><ion-icon name="pause-outline"></ion-icon></span>
+                <span class="next-btn"><ion-icon name="play-forward-outline"></ion-icon></span>
+            </div>
+            <div class="player_block-info">
+                <div class="player_block-infoVoise">
+                    <span class="turn-on"><ion-icon name="volume-high-outline"></ion-icon></span>
+                    <span class="turn-off volume_controll"><ion-icon name="volume-mute-outline"></ion-icon></span>
+                </div>
+                <div class="player_block-infoTitle">
+                    <img src="https://images.genius.com/fafcc0242f48734290ed600204a13b9b.1000x1000x1.png" alt="">
+                    <p>Leviosa titan</p>
+                </div>
+                <div class="player_block-infoProgress">
+                    <span>00:00</span>
+                    <div class="progress_box">
+                        <div class="progress"></div>
+                    </div>
+                    <span>00:00</span>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
